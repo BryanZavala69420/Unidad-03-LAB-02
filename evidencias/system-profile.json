@@ -1,0 +1,138 @@
+[
+  {
+    "op": "query",
+    "ns": "comercial.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T22:05:04.036Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "mongosh 2.14.2",
+    "user": ""
+  },
+  {
+    "op": "query",
+    "ns": "comercial.clientes",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T22:05:30.933Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "update",
+    "ns": "comercial.clientes",
+    "command": {
+      "q": {
+        "_id": 3
+      },
+      "u": {
+        "$set": {
+          "rfc": "GAMA780912XYZ"
+        }
+      }
+    },
+    "ts": {
+      "$date": "2026-11-16T22:05:30.936Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "remove",
+    "ns": "comercial.clientes",
+    "command": {
+      "q": {
+        "_id": 2
+      }
+    },
+    "ts": {
+      "$date": "2026-11-16T22:05:30.938Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "query",
+    "ns": "comercial.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T22:05:35.658Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "mongosh 2.14.2",
+    "user": ""
+  },
+  {
+    "op": "query",
+    "ns": "comercial.clientes",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T22:06:03.117Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "update",
+    "ns": "comercial.clientes",
+    "command": {
+      "q": {
+        "_id": 3
+      },
+      "u": {
+        "$set": {
+          "rfc": "GAMA780912XYZ"
+        }
+      }
+    },
+    "ts": {
+      "$date": "2026-11-16T22:06:03.120Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "remove",
+    "ns": "comercial.clientes",
+    "command": {
+      "q": {
+        "_id": 2
+      }
+    },
+    "ts": {
+      "$date": "2026-11-16T22:06:03.122Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "query",
+    "ns": "comercial.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T22:06:10.943Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "mongosh 2.14.2",
+    "user": ""
+  },
+  {
+    "op": "command",
+    "ns": "comercial.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T22:16:10.825Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "mongosh 2.14.2",
+    "user": ""
+  }
+]
